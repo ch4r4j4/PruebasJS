@@ -24,5 +24,10 @@ document.addEventListener("DOMContentLoaded", function () {
 console.log(resultado);
 */
 
-var elementos = document.getElementsByClassName('elemento');
-console.log(elementos);
+/*var elementos = document.getElementsByClassName('elemento');
+console.log(elementos);*/
+var elemento = {'javier':15,'michelle':25}
+for (let iterator in elemento) {
+    elemento[iterator] +=100
+    console.log(elemento[iterator]);
+}
